@@ -25,12 +25,13 @@ body {
 .nav-links {
   display: flex;
   list-style: none;
-  padding-right: 640px;
+  padding-right: 620px;
   margin: 0;
 }
 
 .nav-links li {
   margin: 0 1rem;
+
 }
 
 .nav-links a {
@@ -42,6 +43,8 @@ body {
 .nav-actions {
   display: flex;
   align-items: center;
+  padding-right: 40px;
+  gap: 20px;
 }
 
 .icon-btn {
@@ -78,8 +81,9 @@ body {
   position: relative;
   max-width: 2000px;
   margin: auto;
-  display:flex;
-  flex-direction: initial;
+  /* display:flex; */
+
+  
 }
 
 .image-text-container1 img {
@@ -92,19 +96,20 @@ body {
 .text-overlay1 {
   position: absolute;
   top: 50%;
-  right: 50px;
-  transform: translate( -80%, -50%);
+  transform: translate( 10%, -60%   ) ;
   color: white;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 5px; /* Optional: Rounds corners of the text background */
 }
 
-.text-overlay1 h1, .text-overlay p {
+.text-overlay1 h1  .text-overlay1 p{
   margin: 0;
-  padding-right: 520px;
   font-size: 2rem;
+  color:white
   
 }
+
+
 .search-bar1 {
   margin-top: 1rem;
   display: flex;
@@ -112,7 +117,7 @@ body {
 }
 
 .search-bar1 input {
-  width: 100%;
+  width: 60%;
   padding: 0.8rem;
   border-radius: 5px 0 0 5px;
   border: none;
@@ -206,7 +211,7 @@ body {
 
 .text-overlay6 h2 { 
 
- margin-right: 280px;
+ margin-right: 230px;
   font-size: 1.5rem;
   color: #0a0f1a;
   margin-top: 90px;
@@ -309,6 +314,7 @@ body {
   margin-left: 350px;
   margin-right: 350px;
   transform: translate(40%, 280% );
+  color:white;
  
 }
 
@@ -355,15 +361,16 @@ body {
   top: 50%;
   right: 20px;
   transform: translate(-435%, 20%);
-  color: white;
+  color:white;
   padding: 2rem;
   border-radius: 5px; /* Optional: Rounds corners of the text background */
 }
 
-.text-overlay3 h2 { 
+.text-overlay3 h1 { 
 
- margin-right: 580px;
+ margin-right: 50px;
   font-size: 1.5rem;
+  color:white;
 }
 
 /* --------------- video section ---------------------- */
@@ -478,9 +485,9 @@ body {
   margin-top: 200px;
 }
 
-.text-overlay4 h2 { 
+.text-overlay4 h1 { 
 
- margin-right: 380px;
+ margin-right: 50px;
   font-size: 1.5rem;
 
  
@@ -626,7 +633,7 @@ body {
 
 .text-overlay5 h1 { 
 
- margin-right: 30px;
+ margin-right: 25px;
   font-size: 1.8rem;
 
  
@@ -745,8 +752,9 @@ body {
 
 .text-overlay2 h1, .text-overlay1 p {
   margin: 0;
-  padding-right: 0px;
+  padding-right: 1360px;
   font-size: 1.5rem;
+  color:white;
   
 }
 .search-bar2 {
