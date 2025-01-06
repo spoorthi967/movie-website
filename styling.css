@@ -81,6 +81,7 @@ body {
   position: relative;
   max-width: 2000px;
   margin: auto;
+  color: white;
   /* display:flex; */
 
   
@@ -96,16 +97,23 @@ body {
 .text-overlay1 {
   position: absolute;
   top: 50%;
-  transform: translate( 10%, -60%   ) ;
+  transform: translate( 20%, -60%   ) ;
   color: white;
   padding: 1rem;
   border-radius: 5px; /* Optional: Rounds corners of the text background */
 }
 
-.text-overlay1 h1  .text-overlay1 p{
+.text-overlay1 h1  {   
+  padding-right: 750px;
+  font-size: 2rem;
+  color: white; 
+
+  
+}
+.text-overlay1 p {
   margin: 0;
   font-size: 2rem;
-  color:white
+  color: white; 
   
 }
 
@@ -750,13 +758,21 @@ body {
   border-radius: 5px; /* Optional: Rounds corners of the text background */
 }
 
-.text-overlay2 h1, .text-overlay1 p {
+.text-overlay2 h1 {
+
   margin: 0;
-  padding-right: 1360px;
   font-size: 1.5rem;
   color:white;
+  padding-right: 1360px;
   
 }
+
+.text-overlay2 p {
+  margin: 0;
+  font-size: 1.5rem;
+  color:white;
+}
+
 .search-bar2 {
   margin-top: 1rem;
   display: flex;
