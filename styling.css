@@ -9,142 +9,15 @@ body {
 /* /******************** NAV BAR  Header ***************************************/ 
 
 .navbar {
-  background-color: #0d253f;
-  display: flex;
-  max-width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.5rem 2rem;
+  background-color: #0c2e45;
 }
+.nav-item {
+  padding-right: 20px;
 
-.navbar .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #01b4e4;
-}
-
-.nav-links {
-  display: flex;
-  list-style: none;
-  
-  margin: 0;
-}
-
-.nav-links li {
-  margin: 0 1rem;
-
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: white;
-  font-size: 1rem;
-}
-
-.nav-actions {
-  display: flex;
-  align-items: center;
-  padding-right: 50px;
-  gap: 20px;
-}
-
-.icon-btn {
-  margin: 0 0.5rem;
-  background: none;
-  border: 1px solid #ffffff;
-  color: #ffffff;
-  padding: 0.5rem;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.nav-link {
-  margin-left: 1rem;
-  text-decoration: none;
-  color: white;
-}
-
-
-
-.dropdown-menu li a {
-  color: black;
-  padding: 8px 20px;
-  display: block;
-  white-space: nowrap; /* Prevents text from wrapping */
-}
-
-.dropdown-menu li a:hover {
-  background-color: #f0f0f0;
 }
 
 /************************  Hero Section  ***************************************************/
-.image-text-container1 {
-  position: relative;
-  max-width: 2000px;
-  margin: auto;
-  color: white;
-  /* display:flex; */
 
-  
-}
-
-.image-text-container1 img {
-  
-  display:flex;
-  flex-direction: initial;
-  
-}
-
-.text-overlay1 {
-  position: absolute;
-  top: 50%;
-  transform: translate( 20%, -60%   ) ;
-  color: white;
-  padding: 1rem;
-  border-radius: 5px; /* Optional: Rounds corners of the text background */
-}
-
-.text-overlay1 h1  {   
-  padding-right: 750px;
-  font-size: 2rem;
-  color: white; 
-
-  
-}
-.text-overlay1 p {
-  margin: 0;
-  font-size: 2rem;
-  color: white; 
-  
-}
-
-
-.search-bar1 {
-  margin-top: 1rem;
-  display: flex;
-  align-items: center;
-}
-
-.search-bar1 input {
-  width: 60%;
-  padding: 0.8rem;
-  border-radius: 5px 0 0 5px;
-  border: none;
-  outline: none;
-}
-
-.search-bar1 button {
-  padding: 0.8rem;
-  border: none;
-  background-color: #00bcd4;
-  color: white;
-  cursor: pointer;
-  border-radius: 0 5px 5px 0;
-}
-
-.search-bar1 button:hover {
-  background-color: #008c9e;
-}
 
 /************************  content Section - 1 ***************************************************/
 
@@ -220,7 +93,7 @@ body {
 
 .text-overlay6 h2 { 
 
- margin-right: 230px;
+ margin-right: 270px;
   font-size: 1.5rem;
   color: #0a0f1a;
   margin-top: 90px;
@@ -377,9 +250,11 @@ body {
 
 .text-overlay3 h1 { 
 
- margin-right: 35px;
+ margin-right: 15px;
   font-size: 1.5rem;
   color:white;
+  padding-right: 40px;
+  margin-top: 40px;
 }
 
 /* --------------- video section ---------------------- */
@@ -423,7 +298,8 @@ body {
 
 .video-info h3 {
   font-size: 1.1rem;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+
 }
 
 .video-info p {
@@ -496,8 +372,10 @@ body {
 
 .text-overlay4 h1 { 
 
- margin-right: 20px;
+ margin-right: 60px;
   font-size: 1.5rem;
+
+margin-bottom: 30px;
 
  
   
@@ -642,8 +520,9 @@ body {
 
 .text-overlay5 h1 { 
 
- margin-right: 5px;
+ margin-right: 40px;
   font-size: 1.8rem;
+  margin-top: 40px;
 
  
   

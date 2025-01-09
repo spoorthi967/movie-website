@@ -3,6 +3,7 @@
 
 
 
+
 // ************************ hero section functionality*****************************************
 // ************************ content section-1 functionality ***********************************
 const todayMovies = [
